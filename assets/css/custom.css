@@ -1,0 +1,29 @@
+/* Datatable remove sorting arrow icon */
+.dataTable>thead>tr>th[class*="sort"]:after {
+    content: "" !important;
+}
+
+.dataTable>thead>tr>th[class*="sort"]:before {
+    content: "" !important;
+}
+
+.btn-diagnosa {
+    width: 100px;
+}
+
+.vertical {
+    margin-top: 50%;
+}
+
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
+    position: absolute;
+    display: inline-block;
+    left: 5px;
+    margin-top: 5px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    list-style-type: none;
+}
